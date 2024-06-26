@@ -1,0 +1,72 @@
+{% load static %}   
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(#0066ff, #00ccff);
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+            background-image: url("{% static 'authentication/poster.jpg' %}");
+            background-repeat: repeat;
+            background-size: 400px 400px;
+        }
+        .container {
+            max-width: 600px;
+            background-image: url("{% static 'authentication/banner.jpg' %}");
+            margin: auto;
+            padding: 2rem;
+            background: white;
+            border-radius: 0.5rem;
+            box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+        }
+        .section-title {
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        .btn-custom {
+            width: 100%;
+        }
+        .underline {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="banner mb-4"></div>
+        <h1 class="text-center section-title">Login to Vote</h1>
+        {% if error_message %}
+            <div class="alert alert-danger" role="alert">
+                {{ error_message }}
+            </div>
+        {% endif %}
+        <form action="{% url 'user_auth:authenticate_user' %}" method="post">
+        <a href="{% url 'user_auth:signup' %}"></a>
+            {% csrf_token %}
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" class="form-control" id="username" name="username" placeholder="User" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" name="password" placeholder="Password" required>
+            </div>
+            <button type="submit" class="btn btn-success btn-custom">Login</button>
+        </form>
+        <br>
+        <div class="text-center">
+            <h4>Create an Account here</h4>
+            <a href="{% url 'user_auth:signup' %}"><button type="button" class="btn btn-secondary">Register</button></a>
+        </div>
+    </div>
+</body>
+</html>
