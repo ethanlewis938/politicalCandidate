@@ -23,15 +23,26 @@ On Mac:
    ```
 
 ## Installation
- 1. Install required package
+ 1. Install required package:
  ```sh
 pip install -r requirements.txt
 ```
 
+ 2. Run the application:
+```sh
+python manage.py runserver
+```
 
-Install the required packages:
-pip install -r requirements.txt
+## Docker
 
+  1. Build the Docker image:
+   ```sh
+   docker build -t imagehere .
+   ```
+  2.  Run the Docker container:
+   ```sh
+   docker run -p 8000:8000 imagehere .
+   ```
 ## Credits
 
 Lead Programmer
