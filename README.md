@@ -51,4 +51,4 @@ Lead Programmer
 
 ## Repository Link
 
-[View the Repository](https://github.com/ethanlewis938/Shoe_Store_Manager)
+[View the Repository](https://github.com/ethanlewis938/politicalCandidate/)
