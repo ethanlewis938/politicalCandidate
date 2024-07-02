@@ -22,7 +22,7 @@ On Mac:
    source venv/bin/activate
    ```
 
-##Installation
+## Installation
  1. Install required package
  ```sh
 pip install -r requirements.txt
