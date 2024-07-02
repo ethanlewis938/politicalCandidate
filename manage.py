@@ -5,6 +5,11 @@ import sys
 
 
 def main():
+    """Checks to see if device is connected
+    :return: `True` if connected, `False` otherwise
+    :rtype: bool
+    """
+    
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'CompulsoryTask.settings')
     try:
@@ -16,6 +21,7 @@ def main():
             "forget to activate a virtual environment?"
         ) from exc
     execute_from_command_line(sys.argv)
+
 
 
 if __name__ == '__main__':
