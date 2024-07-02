@@ -12,9 +12,22 @@ Briefly describe your project.
    ```sh
    python3 -m venv venv
 
-## Installation
-    ```sh
-   python3 -m venv venv
+2. **Start virtual environment**
+On Windows:
+   ```sh
+   .\venv\Scripts\activate
+
+On Mac:
+   ```sh
+   source venv/bin/activate
+   ```
+
+##Installation
+ 1. Install required package
+ ```sh
+pip install -r requirements.txt
+```
+
 
 Install the required packages:
 pip install -r requirements.txt
