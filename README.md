@@ -1,8 +1,7 @@
-# Political Candidate👟
+# Political Candidate ⚖️
 
 ## Overview
-
-Briefly describe your project.
+This project is a web application designed for a political candidate to manage and display polls. It allows authenticated users to view and participate in polls, see poll results, and manage their account. The application includes functionalities such as displaying available polls, voting on polls, and viewing poll results. The user interface is designed with Bootstrap to provide a responsive and visually appealing experience.
 
 ## Setup and Installation
 
