@@ -16,6 +16,7 @@ This project is a web application designed for a political candidate to manage a
 On Windows:
    ```sh
    .\venv\Scripts\activate
+   ```
 
 On Mac:
    ```sh
