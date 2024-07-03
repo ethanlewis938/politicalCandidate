@@ -12,6 +12,7 @@ This project is a web application designed for a political candidate to manage a
    python3 -m venv venv
 
 2. **Start virtual environment**
+
 On Windows:
    ```sh
    .\venv\Scripts\activate
