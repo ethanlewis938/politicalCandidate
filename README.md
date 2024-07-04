@@ -60,10 +60,10 @@ python manage.py runserver
 
 Example Interaction:
 - Login Page
-  ![Home Page Screenshot](images/loginpage.png)
+  ![Login Page Screenshot](images/loginpage.png)
 
 - Home Page
-  ![Login Page Screenshot](images/homepage.png)
+  ![Home Page Screenshot](images/homepage.png)
 
 ## Credits
 
