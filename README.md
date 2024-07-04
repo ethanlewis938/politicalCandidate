@@ -34,16 +34,30 @@ pip install -r requirements.txt
 python manage.py runserver
 ```
 
-## Docker
+## How to install Docker
+   1. Go to https://www.docker.com/products/docker-desktop/ and install
+      	Ensure that the “Use WSL 2 instead of Hyper-V” option is selected.
+      
+   3. Start Docker desktop
+      After the installation completes, Docker Desktop should start automatically.
+      
+   5. Verify installation
+      Open a command prompt and run the following command:
+      ```sh
+      docker --version
+      ```
+
+## Using Docker
 
   1. Build the Docker image:
    ```sh
-   docker build -t imagehere .
+   docker pull django-app
    ```
   2.  Run the Docker container:
    ```sh
-   docker run -p 8000:8000 imagehere .
+   docker run -d -p 8000 django
    ```
+
 ## Credits
 
 Lead Programmer
