@@ -59,7 +59,10 @@ python manage.py runserver
    ```
 
 Example Interaction:
-- Polls App
+- Login Page
+  ![Home Page Screenshot](images/loginpage.png)
+
+- Home Page
   ![Home Page Screenshot](images/homepage.png)
 
 ## Credits
