@@ -1,0 +1,2 @@
+Link to public remote Git repo
+https://github.com/ethanlewis938/politicalCandidate
