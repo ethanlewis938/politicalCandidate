@@ -58,6 +58,10 @@ python manage.py runserver
    docker run -d -p 8000 django
    ```
 
+Example Interaction:
+- Polls App
+  ![Home Page Screenshot](images/homepage.png)
+
 ## Credits
 
 Lead Programmer
