@@ -63,7 +63,7 @@ Example Interaction:
   ![Home Page Screenshot](images/loginpage.png)
 
 - Home Page
-  ![Home Page Screenshot](images/homepage.png)
+  ![Login Page Screenshot](images/homepage.png)
 
 ## Credits
 
