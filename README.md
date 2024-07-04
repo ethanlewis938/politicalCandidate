@@ -49,13 +49,13 @@ python manage.py runserver
 
 ## Using Docker
 
-  1. Build the Docker image:
+  1. Pull the Docker image:
    ```sh
-   docker pull django-app
+   docker pull ethanlewis938/django
    ```
   2.  Run the Docker container:
    ```sh
-   docker run -d -p 8000 django
+   docker run -d -p 8000 ethanlewis938/django
    ```
 
 Example Interaction:
